@@ -1,0 +1,13 @@
+{
+	"pluginName": "Reset Browser",
+	"pluginDescription": "Reset the browser to its default settings.",
+	"pluginReadMore": "Remove all tabs and reset the browser to its default settings.",
+	"protocolVersion": 1,
+	"actions":
+	[
+		{
+			"actionName": "Reset",
+			"fileName": "reset.sh"
+		}
+	]
+}
