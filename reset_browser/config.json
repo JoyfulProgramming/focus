@@ -6,8 +6,12 @@
 	"actions":
 	[
 		{
-			"actionName": "Reset",
-			"fileName": "reset.sh"
+			"actionName": "Reset To LinkedIn",
+			"fileName": "./reset_to_linkedin.sh"
+		},
+		{
+			"actionName": "Reset To Writing",
+			"fileName": "./reset_to_writing.sh"
 		}
 	]
 }
