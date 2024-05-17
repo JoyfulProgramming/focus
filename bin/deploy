@@ -1,4 +1,7 @@
 #!/bin/sh
 
 rm -rf ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser
-cp -R ./reset_browser ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser
+mkdir -p ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser
+cp ./reset_browser/config.json ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser/config.json
+cp ./reset_browser/reset_on_single_click.sh ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser
+cp ./reset_browser/reset_on_double_click.sh ~/Library/Application\ Scripts/com.shortcutlabs.FlicMac/reset_browser

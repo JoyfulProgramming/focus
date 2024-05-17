@@ -6,12 +6,12 @@
 	"actions":
 	[
 		{
-			"actionName": "Reset To LinkedIn",
-			"fileName": "./reset_to_linkedin.sh"
+			"actionName": "Reset On Single Click",
+			"fileName": "./reset_on_single_click.sh"
 		},
 		{
-			"actionName": "Reset To Writing",
-			"fileName": "./reset_to_writing.sh"
+			"actionName": "Reset On Double Click",
+			"fileName": "./reset_on_double_click.sh"
 		}
 	]
 }

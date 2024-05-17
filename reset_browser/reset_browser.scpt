@@ -4,7 +4,7 @@ on run argv
     end if
     set fileName to item 1 of argv
     -- Define the base path where the files are located
-    set basePath to "/Users/johngallagher/Documents/Projects/flic_actions/reset_browser/"
+    set basePath to "/Users/johngallagher/Documents/Projects/focus/reset_browser/"
     set fullFilePath to basePath & fileName
     set posixPath to POSIX file fullFilePath
     set urls to readURLsFromFile(posixPath)
